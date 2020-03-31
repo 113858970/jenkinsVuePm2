@@ -6,7 +6,7 @@
         jenkinsVuePm2
       </h1>
       <h2 class="subtitle">
-        My 222 Nuxt.js project
+        My sweet Nuxt.js project
       </h2>
       <div class="links">
         <a
