@@ -5,8 +5,11 @@ mkdir ./target&&
 cp ./nuxt.config.js ./target&&
 cp ./package.json ./target&&
 cp -a ./build ./target&&
-cp ./target /root/project/jenkinsVuePm2&&
-cd /root/project/jenkinsVuePm2/target&&
+cd target &&
+tar -zcvf target.tar.gz *&&
+cp target.tar.gz /root/project/jenkinsVuePm2&&
+cd /root/project/jenkinsVuePm2&&
+tar -xzvf target.tar.gz &&
 cnpm i&&
 # pm2 启动时读取的配置文件
 ##configFile="pm2.config.json"&&
