@@ -30,7 +30,7 @@ module.exports = {
     __dangerouslyDisableSanitizers: ['script']
   },
   server: {
-    port: 8080,
+    port: 8082,
     host: '0.0.0.0'
   },
   /*

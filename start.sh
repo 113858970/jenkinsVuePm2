@@ -1,6 +1,7 @@
 cnpm i&&
 npm run build&&
 rm -rf ./target&&
+rm -rf nohup.out&&
 mkdir ./target&&
 cp ./nuxt.config.js ./target&&
 cp ./package.json ./target&&
